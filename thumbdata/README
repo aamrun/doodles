@@ -1,0 +1,11 @@
+Extracts 96x96 pixel JPEG images from thumbdata files. 
+
+Tested with Android Camera thumbdata4 files, but should work on all thumbdata formats.
+
+Requirements : Python 3.x
+
+Usage : python thumbdataExtractor.py <full file path of thumbdata file>
+
+Note : On some systems, Python 3 is invoked via python 3. Thus, the usage there will be 
+
+python3 thumbdataExtractor.py <full file path of thumbdata file>
