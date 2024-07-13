@@ -31,3 +31,11 @@ python3 valiant_demo.py
 Tested on Python 3.x, may work with Python 2.x but not guaranteed.
 
 Have fun !
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+valiant_concave.py demonstrates the pursuit simulation for 5 concave quadrilaterals starting with the arrowhead ( concave analogue of the square ), concave pentagon, 
+concave hexagon, concave heptagon and concave nonagon.
+
+Unlike their convex counterparts, the concave polygons are not symmetric and similar as they contract. The concave quadrilaterals change into convex ones, the sides are unequal and thenumber of sides also decrease.
+
+The concave quadrilaterals do not remain within their bounds as they contract.
