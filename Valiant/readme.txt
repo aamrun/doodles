@@ -39,3 +39,7 @@ concave hexagon, concave heptagon and concave nonagon.
 Unlike their convex counterparts, the concave polygons are not symmetric and similar as they contract. The concave quadrilaterals change into convex ones, the sides are unequal and thenumber of sides also decrease.
 
 The concave quadrilaterals do not remain within their bounds as they contract.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+valiant_star.py demonstrates the same simulation on a 5 pointed star. 
+The generated image shows the rich texture and geometry of such creations.
