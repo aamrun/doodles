@@ -32,6 +32,12 @@ curves_lambda.py
 
 uses lambdas to minimize the code by passing the x and y expressions to the method which draws them.
 
+Another take which produces a shorter overall code and is more Pythonic although the script size is larger than curves_lambda.py is 
+
+curves_lamda_list.py
+
+which stores all the curve parameters in a list of dictionaries, even the lambda expressions are stored as key-value pairs in the dictionaries.
+
 Uses the Python default math module and the default turtle module which internally uses tkinter.
 
 On Windows and Linux
@@ -49,4 +55,3 @@ On Linux ( Ubuntu like distros )
 apt install python3-tk
 
 The scripts may fail on WSL due to known compatibility issues with tkinter.
-
