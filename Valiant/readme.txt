@@ -43,3 +43,6 @@ The concave quadrilaterals do not remain within their bounds as they contract.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 valiant_star.py demonstrates the same simulation on a 5 pointed star. 
 The generated image shows the rich texture and geometry of such creations.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+simulate method was added to the Polygon class and valiant scripts were refactored.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
