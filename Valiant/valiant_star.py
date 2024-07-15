@@ -11,10 +11,6 @@ t = turtle.Turtle()
 t.hideturtle()
 t.screen.title("Stars")
 
-#starry = Polygon(star_params[0]["x_center"],star_params[0]["y_center"],star_params[0]["circumradius"],2*star_params[0]["arms"],star_params[0]["orientation_in_degrees"])
-#starry.initialize()
-#starry.starify(star_params[0]["innerradius"])
-#starry.simulate(-10,120,t)
 for star in star_params:
 
   starry = Polygon(star["x_center"],star["y_center"],star["circumradius"],2*star["arms"],star["orientation_in_degrees"])
