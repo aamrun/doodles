@@ -15,6 +15,11 @@ class Polygon:
       for vertex in range(self.num_vertices):
         self.vertex_list.append([self.center_x + self.circumradius * math.cos(math.radians(vertex * 360/self.num_vertices) + math.radians(self.rotation_in_degrees)),
                               self.center_y + self.circumradius * math.sin(math.radians(vertex * 360/self.num_vertices) + math.radians(self.rotation_in_degrees))])
+    
+    def starify(self,innerradius):
+      self.innerradius = innerradius
+      for i in range(1,self.num_vertices,2):
+        self.vertex_list[i][0],self.vertex_list[i][1] = self.center_x + self.innerradius*math.cos(i*2*math.pi/self.num_vertices),self.center_y + self.innerradius*math.sin(i*2*math.pi/self.num_vertices)
 
     def simulate(self,velocity,steps,turtle):
     
