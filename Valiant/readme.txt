@@ -49,3 +49,4 @@ simulate method was added to the Polygon class and valiant scripts were refactor
 starify method added to Polygon class. This method takes an innerradius argument and applies it to every second vertex of a Polygon object.
 valiant_star.py extended to show 3,4,5,6 and 7 pointed stars which are derived from 6,8,10,12 and 14-gons respectively.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+valiant_devil_star.py demonstrates the pursuit algorithm on a 5 pointed star usually associated with Lucifer.
