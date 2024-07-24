@@ -50,3 +50,5 @@ starify method added to Polygon class. This method takes an innerradius argument
 valiant_star.py extended to show 3,4,5,6 and 7 pointed stars which are derived from 6,8,10,12 and 14-gons respectively.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 valiant_devil_star.py demonstrates the pursuit algorithm on a 5 pointed star usually associated with Lucifer.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+valiabt_devil_star.py refactored and made more pythonic
