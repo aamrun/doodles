@@ -52,3 +52,6 @@ valiant_star.py extended to show 3,4,5,6 and 7 pointed stars which are derived f
 valiant_devil_star.py demonstrates the pursuit algorithm on a 5 pointed star usually associated with Lucifer.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 valiabt_devil_star.py refactored and made more pythonic
+----------------------------------------------------------------------------------------------------------------------------------------------------
+3 more concave scripts added
+----------------------------------------------------------------------------------------------------------------------------------------
